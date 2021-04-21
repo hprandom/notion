@@ -7,14 +7,14 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '游记',
-  domain: 'blog.cncans.cn',
-  author: '等闲',
+  name: '其实常常无语',
+  domain: 'blogs.cncans.cn',
+  author: '个人博客',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: '其实常常无语',
+  socialImageTitle: '',
+  socialImageSubtitle: '',
 
   // social usernames (optional)
   twitter: 'hp_random',
