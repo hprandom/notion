@@ -8,8 +8,8 @@ module.exports = {
 
   // basic site info (required)
   name: '其实常常无语',
-  domain: 'blogs.cncans.cn',
-  author: '个人博客',
+  domain: 'https://www.notion.so/29ebc67539d442f1aacf7e08d116bd46',
+  author: '等闲',
 
   // open graph metadata (optional)
   description: '其实常常无语',
