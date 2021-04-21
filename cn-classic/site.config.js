@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: '中国原典通读计划',
-  domain: 'cn-classic.cncans.cn',
+  domain: 'classic-of-china.vercel.app',
   author: '杨照@看理想',
 
   // open graph metadata (optional)
