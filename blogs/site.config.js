@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: '其实常常无语',
-  domain: 'https://www.notion.so/29ebc67539d442f1aacf7e08d116bd46',
+  domain: 'blogs.vercel.app',
   author: '等闲',
 
   // open graph metadata (optional)
