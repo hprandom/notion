@@ -52,7 +52,12 @@ import styles from './styles.module.css'
 //   }
 // )
 
-const Pdf = dynamic(() => import('react-notion-x').then((notion) => notion.Pdf))
+// TODO: PDF support via "react-pdf" package has numerous troubles building
+// with next.js
+// const Pdf = dynamic(
+//   () => import('react-notion-x').then((notion) => notion.Pdf),
+//   { ssr: false }
+// )
 
 const Equation = dynamic(() =>
   import('react-notion-x').then((notion) => notion.Equation)
@@ -126,11 +131,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3
 
-  const socialImage =
-    mapNotionImageUrl(
-      (block as PageBlock).format?.page_cover || config.defaultPageCover,
-      block
-    ) || config.api.renderSocialImage(pageId)
+  const socialImage = mapNotionImageUrl(
+    (block as PageBlock).format?.page_cover || config.defaultPageCover,
+    block
+  )
 
   const socialDescription =
     getPageDescription(block, recordMap) ?? config.description
@@ -250,7 +254,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
           collectionRow: CollectionRow,
           tweet: Tweet,
           modal: Modal,
-          pdf: Pdf,
           equation: Equation
         }}
         recordMap={recordMap}
