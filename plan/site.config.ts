@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '旅游计划',
-  domain: 'plan.ping-he.me',
+  domain: 'trip.jinlan.me',
   author: '等闲',
 
   // open graph metadata (optional)
