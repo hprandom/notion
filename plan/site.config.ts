@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '旅游计划',
+  name: '北疆旅游计划',
   domain: 'trip.jinlan.me',
   author: '等闲',
 
@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'hp_random',
-  github: 'hprandom',
+  twitter: '',
+  github: '',
   linkedin: '',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
